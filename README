@@ -1,3 +1,4 @@
+#NETLOGO
 The spreading of a virus can be seen as a Complex Dinamic Network, for this reason I use a SEIQJRS model for describing the evolution of the population under the Covid-19 diffusion.
 SEIQJRS is a compartimental model that contains:
 S: susceptible people.
