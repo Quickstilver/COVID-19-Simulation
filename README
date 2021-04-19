@@ -1,0 +1,14 @@
+The spreading of a virus can be seen as a Complex Dinamic Network, for this reason I use a SEIQJRS model for describing the evolution of the population under the Covid-19 diffusion.
+SEIQJRS is a compartimental model that contains:
+S: susceptible people.
+E: people who were exposed to the virus
+I: infected people.
+Q: people in quarantine.
+H: people Hospitalized
+R: people with a limited Immunity.
+
+At the beginning of the simulation there are some people in S and some other in I. Moving around the world, the Infected people Expose the Susceptible. With a probability, the Exposed 
+becomes Infected or Quarantined. The infected people, becomes Immune with a rate and with another rate they need to be hospitalized. 
+The quarantined people becomes hospitalized with a rate or becomes Immune. The Hospitalized becomes Immune under a fixed period. The Immune population, becomes susceptile again
+after a fixed period.
+Change all the rates to see differences in the spreading of the Virus.
